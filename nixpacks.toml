@@ -1,4 +1,5 @@
 [phases.setup]
+nixPkgs = ["python312", "python312Packages.pip"]
 aptPkgs = ["libgl1", "libglib2.0-0", "libxcb1", "libxext6", "libsm6", "libxrender1"]
 
 [phases.install]
