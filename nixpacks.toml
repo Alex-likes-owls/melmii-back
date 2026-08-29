@@ -2,4 +2,4 @@
 aptPkgs = ["libgl1", "libglib2.0-0", "libxcb1", "libxext6", "libsm6", "libxrender1"]
 
 [phases.install]
-cmds = ["pip install -c constraints.txt -r requirements.txt"]
+cmds = ["pip install -c constraint.txt -r requirements.txt"]
