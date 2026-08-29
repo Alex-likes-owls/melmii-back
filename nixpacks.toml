@@ -3,7 +3,8 @@ aptPkgs = ["libgl1", "libglib2.0-0", "libxcb1", "libxext6", "libsm6", "libxrende
 
 [phases.install]
 cmds = [
-  "pip install -r requirements.txt",
-  "pip uninstall -y opencv-python",
-  "pip install opencv-python-headless==5.0.0.93 --force-reinstall --no-deps"
+  "python -m pip install --upgrade pip",
+  "python -m pip install -r requirements.txt",
+  "python -m pip uninstall -y opencv-python",
+  "python -m pip install opencv-python-headless==5.0.0.93 --force-reinstall --no-deps"
 ]
