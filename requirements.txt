@@ -27,7 +27,6 @@ num2words==0.5.14
 numpy==2.5.1
 # nvidia-ml-py==13.610.43
 onnxruntime==1.27.0
-opencv-python-headless==5.0.0.93
 packaging==26.2
 pillow==12.3.0
 # polars==1.42.1
