@@ -24,7 +24,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000","https://melmii2.vercel.app"],
+    allow_origins=["http://localhost:3000","https://melmii2.vercel.app","https://www.melmii-aid.mn"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
