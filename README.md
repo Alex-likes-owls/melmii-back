@@ -1,0 +1,1 @@
+With YOLOv11, I got object detection and with Chimege Sonur, I got a text-to-speech model. Check it out
